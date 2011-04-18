@@ -5,4 +5,4 @@ Algorithm description for our Darwin solution
 
 = Algorithm and Optimizations =
 
-We first break down the problem into three classes. The creature.h, board.h and Darwin.h handle all the upkeep. Darwin creates a board.h of type vector<vector <creature>> and initializes the spaces to "empty". From there Darwin can create the new Creature.h "creatures" and insert them into the board. To complete a turn Darwin goes through the board executing a move on each space with a creature whose isn't "empty". Darwin also keeps a turn counter and prints the board.
+We first break down the problem into three classes. The creature.h, board.h and Darwin.h handle all the upkeep. Darwin creates a board.h of type vector< vector < creature > > and initializes the spaces to "empty". From there Darwin can create the new Creature.h "creatures" and insert them into the board. To complete a turn Darwin goes through the board executing a move on each space with a creature whose isn't "empty". Darwin also keeps a turn counter and prints the board.
